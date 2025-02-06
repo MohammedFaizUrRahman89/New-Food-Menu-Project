@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu-header {
+            text-align: center;
+            color: black;
+        }
+
+        .menu-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            margin: 0;
+        }
+
+        .menu-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* Two columns */
+            gap: 30px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .menu-container2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            /* Two columns */
+            gap: 30px;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .menu-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .menu-list {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+        }
+
+        .menu-item h2 {
+            color: #333;
+            margin: 10px 0 5px;
+        }
+
+        .menu-item h6 {
+            color: #e67e22;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .menu-item p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .menu-list h6 {
+            color: black;
+            font-size: 18px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <hr>
+    <div class="menu-header">
+        <h6 style="font-style: italic;">PAUCEK AND LAGE RESTAURANT</h6>
+        <h1>FOOD MENU</h1>
+    </div>
+    <hr>
+    <hr>
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="grilledsalmon.jpeg" alt="Grilled Salmon">
+            <h2>Grilled Salmon</h2>
+            <h6>$18.99</h6>
+            <p>Freshly grilled salmon served with a side of roasted vegetables and lemon butter sauce.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="vegetablepadthai.jpeg" alt="Vegetable Pad Thai">
+            <h2>Vegetable Pad Thai</h2>
+            <h6>$13.99</h6>
+            <p>A delightful mix of stir-fried rice noodles, fresh vegetables, and classic Pad Thai sauce.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="mashroomrisotoo.jpeg" alt="Mushroom Risotto">
+            <h2>Mushroom Risotto</h2>
+            <h6>$14.99</h6>
+            <p>Creamy risotto infused with wild mushrooms, Parmesan, and herbs.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="grilledchicken.jpeg" alt="Grilled Chicken">
+            <h2>Grilled Chicken</h2>
+            <h6>$12.99</h6>
+            <p>Juicy grilled chicken served with steamed vegetables and mashed potatoes.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="classicbeef.jpeg" alt="Classic Beef">
+            <h2>Classic Beef</h2>
+            <h6>$16.99</h6>
+            <p>Perfectly grilled beef steak served with garlic butter and sautéed greens.</p>
+        </div>
+
+        <div class="menu-item">
+            <img src="eggplantparmesean.jpeg" alt="Eggplant Parmesan">
+            <h2>Eggplant Parmesan</h2>
+            <h6>$15.99</h6>
+            <p>Breaded eggplant slices baked with marinara sauce and mozzarella cheese.</p>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="menu-container2">
+        <div>
+            <div class="menu-list">
+                <h2>Beverage</h2>
+                <h6>Classic Margarita</h6>
+                <h6>Mango Mocktail</h6>
+                <h6>Iced Caramel Macchiato</h6>
+                <h6>Green Tea Frappuccino</h6>
+                <h6>Pineapple Coconut Smoothie</h6>
+                <h6>Raspberry Mojito</h6>
+                <h6>Blackberry Ginger Sparkler</h6>
+            </div>
+        </div>
+        <div>
+            <div class="menu-list">
+                <h2>Price</h2>
+                <h6>$3.99</h6>
+                <h6>$2.99</h6>
+                <h6>$4.99</h6>
+                <h6>$3.99</h6>
+                <h6>$5.99</h6>
+                <h6>$3.99</h6>
+                <h6>$2.99</h6>
+            </div>
+        </div>
+        <div>
+            <div class="menu-list">
+                <h2>Dessert</h2>
+                <h6>Chocolate Mousse</h6>
+                <h6>Apple Pie</h6>
+                <h6>Strawberry Shortcake</h6>
+                <h6>Fruit Tart</h6>
+                <h6>Tiramisu</h6>
+                <h6>Chocolate Lava Cake</h6>
+                <h6>Cheesecake</h6>
+            </div>
+        </div>
+        <div>
+            <div class="menu-list">
+                <h2>Price</h2>
+                <h6>$5.99</h6>
+                <h6>$7.99</h6>
+                <h6>$6.99</h6>
+                <h6>$5.99</h6>
+                <h6>$8.99</h6>
+                <h6>$6.99</h6>
+                <h6>$5.99</h6>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+
+</body>
+
+</html>
